@@ -1,0 +1,140 @@
+body{
+  background-color: #47398D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+/* .App{
+  margin-top: 320px;
+} */
+/* -----------------Home page-------------- */
+.btn{
+  width: 200px;
+  height: 40px;
+  background-color: #0AB306;
+  border-radius: 20px;
+  color: white;
+}
+
+
+/* -----------------Quiz page-------------- */
+.QuizPage{
+  background-color: White;
+  color: black;
+  height: 550px;
+  width: 1300px;
+  /* margin-top: 500px; */
+}
+
+.QuizPage>h2{
+  padding-top: 50px;
+}
+
+.QuizPage>h5{
+  text-align: left;
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.616);
+  padding-bottom: 10px;
+}
+
+.QuizPage>h3{
+  padding-bottom: 60px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.grid>button{
+  border-radius: 20px;
+  width: 600px;
+  background-color: #1EA1F1;
+  color: white;
+}
+
+.flex{
+  display: flex;
+}
+
+.align{
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.flex>button{
+  margin: 0 10px;
+  border-radius: 0;
+  padding: 0;
+  padding: 2px 10px;
+}
+
+#blue{
+  background-color:#3E7EAA ;
+}
+#green{
+  background-color:#008001 ;
+}
+#red{
+  background-color:#FF0000;
+}
+
+/* -----------------Result page-------------- */
+
+.ResultPage{
+  /* margin-top: 150px; */
+  margin-top: -150px;
+  /* margin-bottom: 150px; */
+}
+
+.ResultPage>h2{
+  color: #008001;
+  font-size: 35px;
+}
+
+.Page{
+  color: black;
+  padding-top: 50px;
+  background-color: white;
+  width: 700px;
+  height: 350px;
+  margin: auto;
+  }
+.Page>h1{
+  font-size: 30px;
+  color:#3737FF;
+}
+.around{
+  justify-content: space-between;
+  text-align: center;
+  width: 650px;
+}
+
+.around>div>h4{
+  width: 300px;
+}
+
+.btnClick>button{
+   margin-top: 50px;
+   padding: 0;
+   padding: 0 10px;
+}
+
+.btnClick{
+  justify-content: center;
+}
+
+#blueBorder{
+  color: #1EA1F1;
+  border: 2px solid #1EA1F1;
+}
+
+#greenBorder{
+  color: #0AB306;
+  border: 2px solid #0AB306;
+}
